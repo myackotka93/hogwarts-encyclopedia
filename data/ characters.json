@@ -1,0 +1,16 @@
+[
+  {
+    "id": "harry-potter",
+    "name": "Harry Potter",
+    "house": "Gryffindor",
+    "description": "The Boy Who Lived",
+    "image": "/images/harry.jpg"
+  },
+  {
+    "id": "hermione-granger",
+    "name": "Hermione Granger",
+    "house": "Gryffindor",
+    "description": "Brightest witch of her age",
+    "image": "/images/hermione.jpg"
+  }
+]
