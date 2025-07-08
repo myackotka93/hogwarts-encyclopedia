@@ -4,25 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de64d0f9-7faf-4a00-a54c-c34c4abd4596" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/characters/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/characters/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Card/Card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Card/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Navbar/Navbar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Navbar/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+    <list default="true" id="de64d0f9-7faf-4a00-a54c-c34c4abd4596" name="Changes" comment="added part of structure">
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/characters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/characters/Characrer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/characters/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/harry.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/harry.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hermione.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/hermione.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/gcomponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/characters/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/ModalCharacter/ModalCharacter.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/characters/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/ModalCharacter/ModalCharacter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Card/Card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/ModalLayout/ModalLayout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/ModalLayout/ModalLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ characters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +56,42 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\4elov\\OneDrive\\Рабочий стол\\hogwarts-encyclopedia\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\4elov\OneDrive\Рабочий стол\hogwarts-encyclopedia\src\pages" />
+      <recent name="C:\Users\4elov\OneDrive\Рабочий стол\hogwarts-encyclopedia\src" />
       <recent name="C:\Users\4elov\OneDrive\Рабочий стол\hogwarts-encyclopedia\public" />
+      <recent name="C:\Users\4elov\OneDrive\Рабочий стол\hogwarts-encyclopedia\assets" />
       <recent name="C:\Users\4elov\OneDrive\Рабочий стол\hogwarts-encyclopedia" />
-      <recent name="C:\Users\4elov\OneDrive\Рабочий стол\hogwarts-encyclopedia\styles" />
-      <recent name="C:\Users\4elov\OneDrive\Рабочий стол\hogwarts-encyclopedia\app" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -82,7 +107,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751878949110</updated>
-      <workItem from="1751878950776" duration="8809000" />
+      <workItem from="1751878950776" duration="12097000" />
+      <workItem from="1751907454026" duration="3404000" />
+      <workItem from="1751978623872" duration="6271000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -92,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751880866691</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial">
+      <option name="closed" value="true" />
+      <created>1751901277521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751901277521</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added part of structure">
+      <option name="closed" value="true" />
+      <created>1751901351778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751901351778</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="added part of structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="added part of structure" />
   </component>
 </project>
